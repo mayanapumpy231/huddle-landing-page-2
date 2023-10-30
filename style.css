@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap');
+
+.try {
+  border: 1px solid hsl(0, 100%, 63%);
+  border-radius: 2rem;
+  padding: 10px 16px;
+  background-color: white;
+  color: hsl(0, 100%, 63%);
+}
+
+.try:hover {
+  border: 1px solid hsl(321, 100%, 78%);
+  color: hsl(321, 100%, 78%);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 2rem;
+  font-family: 'Poppins',
+    sans-serif;
+
+
+
+}
+
+.get {
+  padding: 1.2rem 2rem;
+  border-radius: 3rem;
+  border: none;
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  margin-top: 1.5rem;
+  box-shadow: 0px 11px 40px -3px rgba(0, 0, 0, 0.1);
+
+}
+
+h1 {
+  font-weight: 1000;
+}
+
+.hero {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.text {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.screen {
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.get:hover {
+  background-color: hsl(321, 100%, 78%);
+}
+
+.ratings {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.rate {
+  color: hsl(192, 100%, 9%);
+  font-size: 5rem;
+  margin-top: 5px;
+  margin-bottom: 0%;
+}
+
+.ratings {
+  color: hsla(192, 100%, 9%, 0.344);
+}
+
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grow-img,
+.grow-div {
+  width: 40%;
+
+}
+
+.cardy {
+  padding: 8rem 0rem;
+  background-image: url(./images/bg-section-top-desktop-1.svg),
+    url(./images/bg-section-bottom-desktop-1.svg);
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+
+}
+
+.card1 {
+  background-color: hsl(207, 100%, 98%);
+}
+
+.cardy2 {
+  padding: 8rem 0rem;
+  background-position: top,
+    bottom;
+  background-repeat: no-repeat,
+    no-repeat;
+  background-image: url(./images/bg-section-top-desktop-2.svg), url(./images/bg-section-bottom-desktop-2.svg);
+}
+
+.card3 {
+  background-color: hsl(207, 100%, 98%);
+}
+
+.ready {
+  text-align: center;
+}
+
+footer {
+  background-image: url(./images/bg-footer-top-desktop.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 8rem 0rem;
+}
+
+.inner {
+  background-color: hsl(192, 100%, 9%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.lorem {
+  color: white;
+}
+
+.left,
+.right {
+  width: 35%;
+  color: white;
+}
+
+input {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sub {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(322, 100%, 66%);
+  margin-left: 1rem;
+
+}
+
+.sub:hover {
+  background-color: hsl(321, 100%, 78%);
+}
+
+;
+}
